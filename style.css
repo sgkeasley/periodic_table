@@ -1,0 +1,783 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+/* This sets the picture to disappear at a minimum screen size */
+@media screen and (min-width: 800px) {
+  picture {
+    display: none;
+    text-align: center;
+    vertical-align: top;
+  }
+}
+
+/* This displays the grid, specifying number of columns and rows, specifying column width and row height*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto;
+  grid-gap: 5px;
+  padding-left: 3%;
+  padding-top: 1%;
+}
+
+
+/* This sets up the uniform design of each item(element) in the table*/
+.grid-item {
+  border: 2px solid slategray;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  font-size: 1vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* This section aligns each element within the item box*/
+.atomic_number {
+  float: left;
+  text-align: left;
+  font-size: 140%;
+}
+
+.atomic_mass {
+  float: right;
+  text-align: right;
+  width: 60%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 120%;
+}
+
+.symbol {
+  text-align: center;
+  padding-right: 42%;
+  padding-left: 35%;
+  font-size: 240%;
+  line-height: 80%;
+}
+
+.name {
+  text-align: center;
+  font-size: 120%;
+  line-height: 0%;
+}
+
+.chemical_group_block {
+  float: none;
+  text-align: center;
+  width: 95%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 110%;
+}
+
+/* This section places each item in the correct cell within the table and changes the background colour*/
+#e1 {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: darkolivegreen;
+}
+
+#e2 {
+  grid-column: 18;
+  grid-row: 1;
+  background-color: chocolate;
+}
+
+#e3 {
+  grid-column: 1;
+  grid-row: 2;
+  background-color: darkred;
+}
+
+#e4 {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: midnightblue;
+}
+
+#e5 {
+  grid-column: 13;
+  grid-row: 2;
+  background-color: darkgreen;
+}
+
+#e6 {
+  grid-column: 14;
+  grid-row: 2;
+  background-color: darkolivegreen;
+}
+
+#e7 {
+  grid-column: 15;
+  grid-row: 2;
+  background-color: darkolivegreen;
+}
+
+#e8 {
+  grid-column: 16;
+  grid-row: 2;
+  background-color: darkolivegreen;
+}
+
+#e9 {
+  grid-column: 17;
+  grid-row: 2;
+  background-color: olive;
+}
+
+#e10 {
+  grid-column: 18;
+  grid-row: 2;
+  background-color: chocolate;
+}
+
+#e11 {
+  grid-column: 1;
+  grid-row: 3;
+  background-color: darkred;
+}
+
+#e12 {
+  grid-column: 2;
+  grid-row: 3;
+  background-color: midnightblue;
+}
+
+#e13 {
+  grid-column: 13;
+  grid-row: 3;
+  background-color: forestgreen;
+}
+
+#e14 {
+  grid-column: 14;
+  grid-row: 3;
+  background-color: darkgreen;
+}
+
+#e15 {
+  grid-column: 15;
+  grid-row: 3;
+  background-color: darkolivegreen;
+}
+
+#e16 {
+  grid-column: 16;
+  grid-row: 3;
+  background-color: darkolivegreen;
+}
+
+#e17 {
+  grid-column: 17;
+  grid-row: 3;
+  background-color: olive;
+}
+
+#e18 {
+  grid-column: 18;
+  grid-row: 3;
+  background-color: chocolate;
+}
+
+#e19 {
+  grid-column: 1;
+  grid-row: 4;
+  background-color: darkred;
+}
+
+#e20 {
+  grid-column: 2;
+  grid-row: 4;
+  background-color: midnightblue;
+}
+
+#e21 {
+  grid-column: 3;
+  grid-row: 4;
+  background-color: darkslateblue;
+}
+
+#e22 {
+  grid-column: 4;
+  grid-row: 4;
+  background-color: darkslateblue;
+}
+
+#e23 {
+  grid-column: 5;
+  grid-row: 4;
+  background-color: darkslateblue;
+}
+
+#e24 {
+  grid-column: 6;
+  grid-row: 4;
+  background-color: darkslateblue;
+}
+
+#e25 {
+  grid-column: 7;
+  grid-row: 4;
+  background-color: darkslateblue;
+}
+
+#e26 {
+  grid-column: 8;
+  grid-row: 4;
+  background-color: darkslateblue;
+}
+
+#e27 {
+  grid-column: 9;
+  grid-row: 4;
+  background-color: darkslateblue;
+}
+
+#e28 {
+  grid-column: 10;
+  grid-row: 4;
+  background-color: darkslateblue;
+}
+
+#e29 {
+  grid-column: 11;
+  grid-row: 4;
+  background-color: darkslateblue;
+}
+
+#e30 {
+  grid-column: 12;
+  grid-row: 4;
+  background-color: darkslateblue;
+}
+
+#e31 {
+  grid-column: 13;
+  grid-row: 4;
+  background-color: forestgreen;
+}
+
+#e32 {
+  grid-column: 14;
+  grid-row: 4;
+  background-color: darkgreen;
+}
+
+#e33 {
+  grid-column: 15;
+  grid-row: 4;
+  background-color: darkgreen;
+}
+
+#e34 {
+  grid-column: 16;
+  grid-row: 4;
+  background-color: darkolivegreen;
+}
+
+#e35 {
+  grid-column: 17;
+  grid-row: 4;
+  background-color: olive;
+}
+
+#e36 {
+  grid-column: 18;
+  grid-row: 4;
+  background-color: chocolate;
+}
+
+#e37 {
+  grid-column: 1;
+  grid-row: 5;
+  background-color: darkred;
+}
+
+#e38 {
+  grid-column: 2;
+  grid-row: 5;
+  background-color: midnightblue;
+}
+
+#e39 {
+  grid-column: 3;
+  grid-row: 5;
+  background-color: darkslateblue;
+}
+
+#e40 {
+  grid-column: 4;
+  grid-row: 5;
+  background-color: darkslateblue;
+}
+
+#e41 {
+  grid-column: 5;
+  grid-row: 5;
+  background-color: darkslateblue;
+}
+
+#e42 {
+  grid-column: 6;
+  grid-row: 5;
+  background-color: darkslateblue;
+}
+
+#e43 {
+  grid-column: 7;
+  grid-row: 5;
+  background-color: darkslateblue;
+}
+
+#e44 {
+  grid-column: 8;
+  grid-row: 5;
+  background-color: darkslateblue;
+}
+
+#e45 {
+  grid-column: 9;
+  grid-row: 5;
+  background-color: darkslateblue;
+}
+
+#e46 {
+  grid-column: 10;
+  grid-row: 5;
+  background-color: darkslateblue;
+}
+
+#e47 {
+  grid-column: 11;
+  grid-row: 5;
+  background-color: darkslateblue;
+}
+
+#e48 {
+  grid-column: 12;
+  grid-row: 5;
+  background-color: darkslateblue;
+}
+
+#e49 {
+  grid-column: 13;
+  grid-row: 5;
+  background-color: forestgreen;
+}
+
+#e50 {
+  grid-column: 14;
+  grid-row: 5;
+  background-color: forestgreen;
+}
+
+#e51 {
+  grid-column: 15;
+  grid-row: 5;
+  background-color: darkgreen;
+}
+
+#e52 {
+  grid-column: 16;
+  grid-row: 5;
+  background-color: darkgreen;
+}
+
+#e53 {
+  grid-column: 17;
+  grid-row: 5;
+  background-color: olive;
+}
+
+#e54 {
+  grid-column: 18;
+  grid-row: 5;
+  background-color: chocolate;
+}
+
+#e55 {
+  grid-column: 1;
+  grid-row: 6;
+  background-color: darkred;
+}
+
+#e56 {
+  grid-column: 2;
+  grid-row: 6;
+  background-color: midnightblue;
+}
+
+#e57 {
+  grid-column: 4;
+  grid-row: 8;
+  background-color: cadetblue;
+}
+
+#e58 {
+  grid-column: 5;
+  grid-row: 8;
+  background-color: cadetblue;
+}
+
+#e59 {
+  grid-column: 6;
+  grid-row: 8;
+  background-color: cadetblue;
+}
+
+#e60 {
+  grid-column: 7;
+  grid-row: 8;
+  background-color: cadetblue;
+}
+
+#e61 {
+  grid-column: 8;
+  grid-row: 8;
+  background-color: cadetblue;
+}
+
+#e62 {
+  grid-column: 9;
+  grid-row: 8;
+  background-color: cadetblue;
+}
+
+#e63 {
+  grid-column: 10;
+  grid-row: 8;
+  background-color: cadetblue;
+}
+
+#e64 {
+  grid-column: 11;
+  grid-row: 8;
+  background-color: cadetblue;
+}
+
+#e65 {
+  grid-column: 12;
+  grid-row: 8;
+  background-color: cadetblue;
+}
+
+#e66 {
+  grid-column: 13;
+  grid-row: 8;
+  background-color: cadetblue;
+}
+
+#e67 {
+  grid-column: 14;
+  grid-row: 8;
+  background-color: cadetblue;
+}
+
+#e68 {
+  grid-column: 15;
+  grid-row: 8;
+  background-color: cadetblue;
+}
+
+#e69 {
+  grid-column: 16;
+  grid-row: 8;
+  background-color: cadetblue;
+}
+
+#e70 {
+  grid-column: 17;
+  grid-row: 8;
+  background-color: cadetblue;
+}
+
+#e71 {
+  grid-column: 18;
+  grid-row: 8;
+  background-color: cadetblue;
+}
+
+#e72 {
+  grid-column: 4;
+  grid-row: 6;
+  background-color: darkslateblue;
+}
+
+#e73 {
+  grid-column: 5;
+  grid-row: 6;
+  background-color: darkslateblue;
+}
+
+#e74 {
+  grid-column: 6;
+  grid-row: 6;
+  background-color: darkslateblue;
+}
+
+#e75 {
+  grid-column: 7;
+  grid-row: 6;
+  background-color: darkslateblue;
+}
+
+#e76 {
+  grid-column: 8;
+  grid-row: 6;
+  background-color: darkslateblue;
+}
+
+#e77 {
+  grid-column: 9;
+  grid-row: 6;
+  background-color: darkslateblue;
+}
+
+#e78 {
+  grid-column: 10;
+  grid-row: 6;
+  background-color: darkslateblue;
+}
+
+#e79 {
+  grid-column: 11;
+  grid-row: 6;
+  background-color: darkslateblue;
+}
+
+#e80 {
+  grid-column: 12;
+  grid-row: 6;
+  background-color: darkslateblue;
+}
+
+#e81 {
+  grid-column: 13;
+  grid-row: 6;
+  background-color: forestgreen;
+}
+
+#e82 {
+  grid-column: 14;
+  grid-row: 6;
+  background-color: forestgreen;
+}
+
+#e83 {
+  grid-column: 15;
+  grid-row: 6;
+  background-color: forestgreen;
+}
+
+#e84 {
+  grid-column: 16;
+  grid-row: 6;
+  background-color: darkgreen;
+}
+
+#e85 {
+  grid-column: 17;
+  grid-row: 6;
+  background-color: olive;
+}
+
+#e86 {
+  grid-column: 18;
+  grid-row: 6;
+  background-color: chocolate;
+}
+
+#e87 {
+  grid-column: 1;
+  grid-row: 7;
+  background-color: darkred;
+}
+
+#e88 {
+  grid-column: 2;
+  grid-row: 7;
+  background-color: midnightblue;
+}
+
+#e89 {
+  grid-column: 4;
+  grid-row: 9;
+  background-color: teal;
+}
+
+#e90 {
+  grid-column: 5;
+  grid-row: 9;
+  background-color: teal;
+}
+
+#e91 {
+  grid-column: 6;
+  grid-row: 9;
+  background-color: teal;
+}
+
+#e92 {
+  grid-column: 7;
+  grid-row: 9;
+  background-color: teal;
+}
+
+#e93 {
+  grid-column: 8;
+  grid-row: 9;
+  background-color: teal;
+}
+
+#e94 {
+  grid-column: 9;
+  grid-row: 9;
+  background-color: teal;
+}
+
+#e95 {
+  grid-column: 10;
+  grid-row: 9;
+  background-color: teal;
+}
+
+#e96 {
+  grid-column: 11;
+  grid-row: 9;
+  background-color: teal;
+}
+
+#e97 {
+  grid-column: 12;
+  grid-row: 9;
+  background-color: teal;
+}
+
+#e98 {
+  grid-column: 13;
+  grid-row: 9;
+  background-color: teal;
+}
+
+#e99 {
+  grid-column: 14;
+  grid-row: 9;
+  background-color: teal;
+}
+
+#e100 {
+  grid-column: 15;
+  grid-row: 9;
+  background-color: teal;
+}
+
+#e101 {
+  grid-column: 16;
+  grid-row: 9;
+  background-color: teal;
+}
+
+#e102 {
+  grid-column: 17;
+  grid-row: 9;
+  background-color: teal;
+}
+
+#e103 {
+  grid-column: 18;
+  grid-row: 9;
+  background-color: teal;
+}
+
+#e104 {
+  grid-column: 4;
+  grid-row: 7;
+  background-color: darkslateblue;
+}
+
+#e105 {
+  grid-column: 5;
+  grid-row: 7;
+  background-color: darkslateblue;
+}
+
+#e106 {
+  grid-column: 6;
+  grid-row: 7;
+  background-color: darkslateblue;
+}
+
+#e107 {
+  grid-column: 7;
+  grid-row: 7;
+  background-color: darkslateblue;
+}
+
+#e108 {
+  grid-column: 8;
+  grid-row: 7;
+  background-color: darkslateblue;
+}
+
+#e109 {
+  grid-column: 9;
+  grid-row: 7;
+  background-color: darkslateblue;
+}
+
+#e110 {
+  grid-column: 10;
+  grid-row: 7;
+  background-color: darkslateblue;
+}
+
+#e111 {
+  grid-column: 11;
+  grid-row: 7;
+  background-color: darkslateblue;
+}
+
+#e112 {
+  grid-column: 12;
+  grid-row: 7;
+  background-color: darkslateblue;
+}
+
+#e113 {
+  grid-column: 13;
+  grid-row: 7;
+  background-color: forestgreen;
+}
+
+#e114 {
+  grid-column: 14;
+  grid-row: 7;
+  background-color: forestgreen;
+}
+
+#e115 {
+  grid-column: 15;
+  grid-row: 7;
+  background-color: forestgreen;
+}
+
+#e116 {
+  grid-column: 16;
+  grid-row: 7;
+  background-color: forestgreen;
+}
+
+#e117 {
+  grid-column: 17;
+  grid-row: 7;
+  background-color: olive;
+}
+
+#e118 {
+  grid-column: 18;
+  grid-row: 7;
+  background-color: chocolate;
+}

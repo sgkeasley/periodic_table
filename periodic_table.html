@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Periodic Table of Elements</title>
+</head>
+<body>
+    <!-- This is the main page heading-->
+    <header id="heading">
+        <h1>Periodic Table of Elements</h1>
+    </header>
+    <hr>
+
+    <!-- This is the image for when the screen size is below 800px-->
+    <picture>
+        <img src="periodic_table_image.jpg" alt="Picture of the Periodic Table of Elements"/>
+    </picture>
+
+    <!-- This section sets up each item within the grid container-->
+    <div class="grid-container">
+        <div class="grid-item" id="e1">
+            <h4 class="atomic_number">1</h4>
+            <h5 class="atomic_mass">1.0080</h5>
+            <h2 class="symbol">H</h2>
+            <h5 class="name">Hydrogen</h5>
+            <h6 class="chemical_group_block">Nonmetal</h6>
+        </div>
+        <div class="grid-item" id="e2">
+            <h4 class="atomic_number">2</h4>
+            <h5 class="atomic_mass">4.00260</h5>
+            <h2 class="symbol">He</h2>
+            <h5 class="name">Helium</h5>
+            <h6 class="chemical_group_block">Noble Gas</h6>
+        </div>
+        <div class="grid-item" id="e3">
+            <h4 class="atomic_number">3</h4>
+            <h5 class="atomic_mass">7.0</h5>
+            <h2 class="symbol">Li</h2>
+            <h5 class="name">Lithium</h5>
+            <h6 class="chemical_group_block">Alkali Metal</h6>
+        </div>
+        <div class="grid-item" id="e4">
+            <h4 class="atomic_number">4</h4>
+            <h5 class="atomic_mass">9.012183</h5>
+            <h2 class="symbol">Be</h2>
+            <h5 class="name">Beryllium</h5>
+            <h6 class="chemical_group_block">Alkaline Earth Metal</h6>
+        </div>
+        <div class="grid-item" id="e5">
+            <h4 class="atomic_number">5</h4>
+            <h5 class="atomic_mass">10.81</h5>
+            <h2 class="symbol">B</h2>
+            <h5 class="name">Boron</h5>
+            <h6 class="chemical_group_block">Metalloid</h6>
+        </div>
+        <div class="grid-item" id="e6">
+            <h4 class="atomic_number">6</h4>
+            <h5 class="atomic_mass">12.011</h5>
+            <h2 class="symbol">C</h2>
+            <h5 class="name">Carbon</h5>
+            <h6 class="chemical_group_block">Nonmetal</h6>
+        </div>
+        <div class="grid-item" id="e7">
+            <h4 class="atomic_number">7</h4>
+            <h5 class="atomic_mass">14.007</h5>
+            <h2 class="symbol">N</h2>
+            <h5 class="name">Nitrogen</h5>
+            <h6 class="chemical_group_block">Nonmetal</h6>
+        </div>
+        <div class="grid-item" id="e8">
+            <h4 class="atomic_number">8</h4>
+            <h5 class="atomic_mass">15.999</h5>
+            <h2 class="symbol">O</h2>
+            <h5 class="name">Oxygen</h5>
+            <h6 class="chemical_group_block">Nonmetal</h6>
+        </div>
+        <div class="grid-item" id="e9">
+            <h4 class="atomic_number">9</h4>
+            <h5 class="atomic_mass">18.99840316</h5>
+            <h2 class="symbol">F</h2>
+            <h5 class="name">Fluorine</h5>
+            <h6 class="chemical_group_block">Halogen</h6>
+        </div>
+        <div class="grid-item" id="e10">
+            <h4 class="atomic_number">10</h4>
+            <h5 class="atomic_mass">20.180</h5>
+            <h2 class="symbol">Ne</h2>
+            <h5 class="name">Neon</h5>
+            <h6 class="chemical_group_block">Noble Gas</h6>
+        </div>
+        <div class="grid-item" id="e11">
+            <h4 class="atomic_number">11</h4>
+            <h5 class="atomic_mass">22.9897693</h5>
+            <h2 class="symbol">Na</h2>
+            <h5 class="name">Sodium</h5>
+            <h6 class="chemical_group_block">Alkali Metal</h6>
+        </div>
+        <div class="grid-item" id="e12">
+            <h4 class="atomic_number">12</h4>
+            <h5 class="atomic_mass">24.305</h5>
+            <h2 class="symbol">Mg</h2>
+            <h5 class="name">Magnesium</h5>
+            <h6 class="chemical_group_block">Alkaline Earth Metal</h6>
+        </div>
+        <div class="grid-item" id="e13">
+            <h4 class="atomic_number">13</h4>
+            <h5 class="atomic_mass">26.981538</h5>
+            <h2 class="symbol">Al</h2>
+            <h5 class="name">Aluminum</h5>
+            <h6 class="chemical_group_block">Post-Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e14">
+            <h4 class="atomic_number">14</h4>
+            <h5 class="atomic_mass">28.085</h5>
+            <h2 class="symbol">Si</h2>
+            <h5 class="name">Silicon</h5>
+            <h6 class="chemical_group_block">Metalloid</h6>
+        </div>
+        <div class="grid-item" id="e15">
+            <h4 class="atomic_number">15</h4>
+            <h5 class="atomic_mass">30.97376200</h5>
+            <h2 class="symbol">P</h2>
+            <h5 class="name">Phosphorus</h5>
+            <h6 class="chemical_group_block">Nonmetal</h6>
+        </div>
+        <div class="grid-item" id="e16">
+            <h4 class="atomic_number">16</h4>
+            <h5 class="atomic_mass">32.07</h5>
+            <h2 class="symbol">S</h2>
+            <h5 class="name">Sulfur</h5>
+            <h6 class="chemical_group_block">Nonmetal</h6>
+        </div>
+        <div class="grid-item" id="e17">
+            <h4 class="atomic_number">17</h4>
+            <h5 class="atomic_mass">35.45</h5>
+            <h2 class="symbol">Cl</h2>
+            <h5 class="name">Chlorine</h5>
+            <h6 class="chemical_group_block">Halogen</h6>
+        </div>
+        <div class="grid-item" id="e18">
+            <h4 class="atomic_number">18</h4>
+            <h5 class="atomic_mass">39.9</h5>
+            <h2 class="symbol">Ar</h2>
+            <h5 class="name">Argon</h5>
+            <h6 class="chemical_group_block">Noble Gas</h6>
+        </div>
+        <div class="grid-item" id="e19">
+            <h4 class="atomic_number">19</h4>
+            <h5 class="atomic_mass">39.0983</h5>
+            <h2 class="symbol">K</h2>
+            <h5 class="name">Potassium</h5>
+            <h6 class="chemical_group_block">Alkali Metal</h6>
+        </div>
+        <div class="grid-item" id="e20">
+            <h4 class="atomic_number">20</h4>
+            <h5 class="atomic_mass">40.08</h5>
+            <h2 class="symbol">Ca</h2>
+            <h5 class="name">Calcium</h5>
+            <h6 class="chemical_group_block">Alkaline Earth Metal</h6>
+        </div>
+        <div class="grid-item" id="e21">
+            <h4 class="atomic_number">21</h4>
+            <h5 class="atomic_mass">44.95591</h5>
+            <h2 class="symbol">Sc</h2>
+            <h5 class="name">Scandium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e22">
+            <h4 class="atomic_number">22</h4>
+            <h5 class="atomic_mass">47.867</h5>
+            <h2 class="symbol">Ti</h2>
+            <h5 class="name">Titanium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e23">
+            <h4 class="atomic_number">23</h4>
+            <h5 class="atomic_mass">50.9415</h5>
+            <h2 class="symbol">V</h2>
+            <h5 class="name">Vanadium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e24">
+            <h4 class="atomic_number">24</h4>
+            <h5 class="atomic_mass">51.996</h5>
+            <h2 class="symbol">Cr</h2>
+            <h5 class="name">Chromium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e25">
+            <h4 class="atomic_number">25</h4>
+            <h5 class="atomic_mass">54.93804</h5>
+            <h2 class="symbol">Mn</h2>
+            <h5 class="name">Manganese</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e26">
+            <h4 class="atomic_number">26</h4>
+            <h5 class="atomic_mass">55.84</h5>
+            <h2 class="symbol">Fe</h2>
+            <h5 class="name">Iron</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e27">
+            <h4 class="atomic_number">27</h4>
+            <h5 class="atomic_mass">58.93319</h5>
+            <h2 class="symbol">Co</h2>
+            <h5 class="name">Cobalt</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e28">
+            <h4 class="atomic_number">28</h4>
+            <h5 class="atomic_mass">58.693</h5>
+            <h2 class="symbol">Ni</h2>
+            <h5 class="name">Nickel</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e29">
+            <h4 class="atomic_number">29</h4>
+            <h5 class="atomic_mass">63.55</h5>
+            <h2 class="symbol">Cu</h2>
+            <h5 class="name">Copper</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e30">
+            <h4 class="atomic_number">30</h4>
+            <h5 class="atomic_mass">65.4</h5>
+            <h2 class="symbol">Zn</h2>
+            <h5 class="name">Zinc</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e31">
+            <h4 class="atomic_number">31</h4>
+            <h5 class="atomic_mass">69.723</h5>
+            <h2 class="symbol">Ga</h2>
+            <h5 class="name">Gallium</h5>
+            <h6 class="chemical_group_block">Post-Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e32">
+            <h4 class="atomic_number">32</h4>
+            <h5 class="atomic_mass">72.63</h5>
+            <h2 class="symbol">Ge</h2>
+            <h5 class="name">Germanium</h5>
+            <h6 class="chemical_group_block">Metalloid</h6>
+        </div>
+        <div class="grid-item" id="e33">
+            <h4 class="atomic_number">33</h4>
+            <h5 class="atomic_mass">74.92159</h5>
+            <h2 class="symbol">As</h2>
+            <h5 class="name">Arsenic</h5>
+            <h6 class="chemical_group_block">Metalloid</h6>
+        </div>
+        <div class="grid-item" id="e34">
+            <h4 class="atomic_number">34</h4>
+            <h5 class="atomic_mass">78.97</h5>
+            <h2 class="symbol">Se</h2>
+            <h5 class="name">Selenium</h5>
+            <h6 class="chemical_group_block">Nonmetal</h6>
+        </div>
+        <div class="grid-item" id="e35">
+            <h4 class="atomic_number">35</h4>
+            <h5 class="atomic_mass">79.90</h5>
+            <h2 class="symbol">Br</h2>
+            <h5 class="name">Bromine</h5>
+            <h6 class="chemical_group_block">Halogen</h6>
+        </div>
+        <div class="grid-item" id="e36">
+            <h4 class="atomic_number">36</h4>
+            <h5 class="atomic_mass">83.80</h5>
+            <h2 class="symbol">Kr</h2>
+            <h5 class="name">Krypton</h5>
+            <h6 class="chemical_group_block">Noble Gas</h6>
+        </div>
+        <div class="grid-item" id="e37">
+            <h4 class="atomic_number">37</h4>
+            <h5 class="atomic_mass">85.468</h5>
+            <h2 class="symbol">Rb</h2>
+            <h5 class="name">Rubidium</h5>
+            <h6 class="chemical_group_block">Alkali Metal</h6>
+        </div>
+        <div class="grid-item" id="e38">
+            <h4 class="atomic_number">38</h4>
+            <h5 class="atomic_mass">87.62</h5>
+            <h2 class="symbol">Sr</h2>
+            <h5 class="name">Strontium</h5>
+            <h6 class="chemical_group_block">Alkaline Earth Metal</h6>
+        </div>
+        <div class="grid-item" id="e39">
+            <h4 class="atomic_number">39</h4>
+            <h5 class="atomic_mass">88.90584</h5>
+            <h2 class="symbol">Y</h2>
+            <h5 class="name">Yttrium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e40">
+            <h4 class="atomic_number">40</h4>
+            <h5 class="atomic_mass">91.22</h5>
+            <h2 class="symbol">Zr</h2>
+            <h5 class="name">Zirconium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e41">
+            <h4 class="atomic_number">41</h4>
+            <h5 class="atomic_mass">92.90637</h5>
+            <h2 class="symbol">Nb</h2>
+            <h5 class="name">Niobium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e42">
+            <h4 class="atomic_number">42</h4>
+            <h5 class="atomic_mass">95.95</h5>
+            <h2 class="symbol">Mo</h2>
+            <h5 class="name">Molybdenum</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e43">
+            <h4 class="atomic_number">43</h4>
+            <h5 class="atomic_mass">96.90636</h5>
+            <h2 class="symbol">Tc</h2>
+            <h5 class="name">Technetium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e44">
+            <h4 class="atomic_number">44</h4>
+            <h5 class="atomic_mass">101.1</h5>
+            <h2 class="symbol">Ru</h2>
+            <h5 class="name">Ruthenium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e45">
+            <h4 class="atomic_number">45</h4>
+            <h5 class="atomic_mass">102.9055</h5>
+            <h2 class="symbol">Rh</h2>
+            <h5 class="name">Rhodium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e46">
+            <h4 class="atomic_number">46</h4>
+            <h5 class="atomic_mass">106.42</h5>
+            <h2 class="symbol">Pd</h2>
+            <h5 class="name">Palladium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e47">
+            <h4 class="atomic_number">47</h4>
+            <h5 class="atomic_mass">107.868</h5>
+            <h2 class="symbol">Ag</h2>
+            <h5 class="name">Silver</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e48">
+            <h4 class="atomic_number">48</h4>
+            <h5 class="atomic_mass">112.41</h5>
+            <h2 class="symbol">Cd</h2>
+            <h5 class="name">Cadmium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e49">
+            <h4 class="atomic_number">49</h4>
+            <h5 class="atomic_mass">114.818</h5>
+            <h2 class="symbol">In</h2>
+            <h5 class="name">Indium</h5>
+            <h6 class="chemical_group_block">Post-Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e50">
+            <h4 class="atomic_number">50</h4>
+            <h5 class="atomic_mass">118.71</h5>
+            <h2 class="symbol">Sn</h2>
+            <h5 class="name">Tin</h5>
+            <h6 class="chemical_group_block">Post-Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e51">
+            <h4 class="atomic_number">51</h4>
+            <h5 class="atomic_mass">121.760</h5>
+            <h2 class="symbol">Sb</h2>
+            <h5 class="name">Antimony</h5>
+            <h6 class="chemical_group_block">Metalloid</h6>
+        </div>
+        <div class="grid-item" id="e52">
+            <h4 class="atomic_number">52</h4>
+            <h5 class="atomic_mass">127.6</h5>
+            <h2 class="symbol">Te</h2>
+            <h5 class="name">Tellurium</h5>
+            <h6 class="chemical_group_block">Metalloid</h6>
+        </div>
+        <div class="grid-item" id="e53">
+            <h4 class="atomic_number">53</h4>
+            <h5 class="atomic_mass">126.9045</h5>
+            <h2 class="symbol">I</h2>
+            <h5 class="name">Iodine</h5>
+            <h6 class="chemical_group_block">Halogen</h6>
+        </div>
+        <div class="grid-item" id="e54">
+            <h4 class="atomic_number">54</h4>
+            <h5 class="atomic_mass">131.29</h5>
+            <h2 class="symbol">Xe</h2>
+            <h5 class="name">Xenon</h5>
+            <h6 class="chemical_group_block">Noble Gas</h6>
+        </div>
+        <div class="grid-item" id="e55">
+            <h4 class="atomic_number">55</h4>
+            <h5 class="atomic_mass">132.9054520</h5>
+            <h2 class="symbol">Cs</h2>
+            <h5 class="name">Cesium</h5>
+            <h6 class="chemical_group_block">Alkali Metal</h6>
+        </div>
+        <div class="grid-item" id="e56">
+            <h4 class="atomic_number">56</h4>
+            <h5 class="atomic_mass">137.33</h5>
+            <h2 class="symbol">Ba</h2>
+            <h5 class="name">Barium</h5>
+            <h6 class="chemical_group_block">Alkaline Earth Metal</h6>
+        </div>
+        <div class="grid-item" id="e57">
+            <h4 class="atomic_number">57</h4>
+            <h5 class="atomic_mass">138.9055</h5>
+            <h2 class="symbol">La</h2>
+            <h5 class="name">Lanthanum</h5>
+            <h6 class="chemical_group_block">Lanthanide</h6>
+        </div>
+        <div class="grid-item" id="e58">
+            <h4 class="atomic_number">58</h4>
+            <h5 class="atomic_mass">140.116</h5>
+            <h2 class="symbol">Ce</h2>
+            <h5 class="name">Cerium</h5>
+            <h6 class="chemical_group_block">Lanthanide</h6>
+        </div>
+        <div class="grid-item" id="e59">
+            <h4 class="atomic_number">59</h4>
+            <h5 class="atomic_mass">140.90766</h5>
+            <h2 class="symbol">Pr</h2>
+            <h5 class="name">Praseodymium</h5>
+            <h6 class="chemical_group_block">Lanthanide</h6>
+        </div>
+        <div class="grid-item" id="e60">
+            <h4 class="atomic_number">60</h4>
+            <h5 class="atomic_mass">144.24</h5>
+            <h2 class="symbol">Nd</h2>
+            <h5 class="name">Neodymium</h5>
+            <h6 class="chemical_group_block">Lanthanide</h6>
+        </div>
+        <div class="grid-item" id="e61">
+            <h4 class="atomic_number">61</h4>
+            <h5 class="atomic_mass">144.91276</h5>
+            <h2 class="symbol">Pm</h2>
+            <h5 class="name">Promethium</h5>
+            <h6 class="chemical_group_block">Lanthanide</h6>
+        </div>
+        <div class="grid-item" id="e62">
+            <h4 class="atomic_number">62</h4>
+            <h5 class="atomic_mass">150.4</h5>
+            <h2 class="symbol">Sm</h2>
+            <h5 class="name">Samarium</h5>
+            <h6 class="chemical_group_block">Lanthanide</h6>
+        </div>
+        <div class="grid-item" id="e63">
+            <h4 class="atomic_number">63</h4>
+            <h5 class="atomic_mass">151.964</h5>
+            <h2 class="symbol">Eu</h2>
+            <h5 class="name">Europium</h5>
+            <h6 class="chemical_group_block">Lanthanide</h6>
+        </div>
+        <div class="grid-item" id="e64">
+            <h4 class="atomic_number">64</h4>
+            <h5 class="atomic_mass">157.2</h5>
+            <h2 class="symbol">Gd</h2>
+            <h5 class="name">Gadolinium</h5>
+            <h6 class="chemical_group_block">Lanthanide</h6>
+        </div>
+        <div class="grid-item" id="e65">
+            <h4 class="atomic_number">65</h4>
+            <h5 class="atomic_mass">158.92535</h5>
+            <h2 class="symbol">Tb</h2>
+            <h5 class="name">Terbium</h5>
+            <h6 class="chemical_group_block">Lanthanide</h6>
+        </div>
+        <div class="grid-item" id="e66">
+            <h4 class="atomic_number">66</h4>
+            <h5 class="atomic_mass">162.500</h5>
+            <h2 class="symbol">Dy</h2>
+            <h5 class="name">Dysprosium</h5>
+            <h6 class="chemical_group_block">Lanthanide</h6>
+        </div>
+        <div class="grid-item" id="e67">
+            <h4 class="atomic_number">67</h4>
+            <h5 class="atomic_mass">164.93033</h5>
+            <h2 class="symbol">Ho</h2>
+            <h5 class="name">Holmium</h5>
+            <h6 class="chemical_group_block">Lanthanide</h6>
+        </div>
+        <div class="grid-item" id="e68">
+            <h4 class="atomic_number">68</h4>
+            <h5 class="atomic_mass">167.26</h5>
+            <h2 class="symbol">Er</h2>
+            <h5 class="name">Erbium</h5>
+            <h6 class="chemical_group_block">Lanthanide</h6>
+        </div>
+        <div class="grid-item" id="e69">
+            <h4 class="atomic_number">69</h4>
+            <h5 class="atomic_mass">168.93422</h5>
+            <h2 class="symbol">Tm</h2>
+            <h5 class="name">Thulium</h5>
+            <h6 class="chemical_group_block">Lanthanide</h6>
+        </div>
+        <div class="grid-item" id="e70">
+            <h4 class="atomic_number">70</h4>
+            <h5 class="atomic_mass">173.05</h5>
+            <h2 class="symbol">Yb</h2>
+            <h5 class="name">Ytterbium</h5>
+            <h6 class="chemical_group_block">Lanthanide</h6>
+        </div>
+        <div class="grid-item" id="e71">
+            <h4 class="atomic_number">71</h4>
+            <h5 class="atomic_mass">174.9668</h5>
+            <h2 class="symbol">Lu</h2>
+            <h5 class="name">Lutetium</h5>
+            <h6 class="chemical_group_block">Lanthanide</h6>
+        </div>
+        <div class="grid-item" id="e72">
+            <h4 class="atomic_number">72</h4>
+            <h5 class="atomic_mass">178.49</h5>
+            <h2 class="symbol">Hf</h2>
+            <h5 class="name">Hafnium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e73">
+            <h4 class="atomic_number">73</h4>
+            <h5 class="atomic_mass">180.9479</h5>
+            <h2 class="symbol">Ta</h2>
+            <h5 class="name">Tantalum</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e74">
+            <h4 class="atomic_number">74</h4>
+            <h5 class="atomic_mass">183.84</h5>
+            <h2 class="symbol">W</h2>
+            <h5 class="name">Tungsten</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e75">
+            <h4 class="atomic_number">75</h4>
+            <h5 class="atomic_mass">186.207</h5>
+            <h2 class="symbol">Re</h2>
+            <h5 class="name">Rhenium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e76">
+            <h4 class="atomic_number">76</h4>
+            <h5 class="atomic_mass">190.2</h5>
+            <h2 class="symbol">Os</h2>
+            <h5 class="name">Osmium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e77">
+            <h4 class="atomic_number">77</h4>
+            <h5 class="atomic_mass">192.22</h5>
+            <h2 class="symbol">Ir</h2>
+            <h5 class="name">Iridium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e78">
+            <h4 class="atomic_number">78</h4>
+            <h5 class="atomic_mass">195.08</h5>
+            <h2 class="symbol">Pt</h2>
+            <h5 class="name">Platinum</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e79">
+            <h4 class="atomic_number">79</h4>
+            <h5 class="atomic_mass">196.96657</h5>
+            <h2 class="symbol">Au</h2>
+            <h5 class="name">Gold</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e80">
+            <h4 class="atomic_number">80</h4>
+            <h5 class="atomic_mass">200.59</h5>
+            <h2 class="symbol">Hg</h2>
+            <h5 class="name">Mercury</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e81">
+            <h4 class="atomic_number">81</h4>
+            <h5 class="atomic_mass">204.383</h5>
+            <h2 class="symbol">Tl</h2>
+            <h5 class="name">Thallium</h5>
+            <h6 class="chemical_group_block">Post-Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e82">
+            <h4 class="atomic_number">82</h4>
+            <h5 class="atomic_mass">207</h5>
+            <h2 class="symbol">Pb</h2>
+            <h5 class="name">Lead</h5>
+            <h6 class="chemical_group_block">Post-Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e83">
+            <h4 class="atomic_number">83</h4>
+            <h5 class="atomic_mass">208.98040</h5>
+            <h2 class="symbol">Bi</h2>
+            <h5 class="name">Bismuth</h5>
+            <h6 class="chemical_group_block">Post-Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e84">
+            <h4 class="atomic_number">84</h4>
+            <h5 class="atomic_mass">208.98243</h5>
+            <h2 class="symbol">Po</h2>
+            <h5 class="name">Polonium</h5>
+            <h6 class="chemical_group_block">Metalloid</h6>
+        </div>
+        <div class="grid-item" id="e85">
+            <h4 class="atomic_number">85</h4>
+            <h5 class="atomic_mass">209.98715</h5>
+            <h2 class="symbol">At</h2>
+            <h5 class="name">Astatine</h5>
+            <h6 class="chemical_group_block">Halogen</h6>
+        </div>
+        <div class="grid-item" id="e86">
+            <h4 class="atomic_number">86</h4>
+            <h5 class="atomic_mass">222.01758</h5>
+            <h2 class="symbol">Rn</h2>
+            <h5 class="name">Radon</h5>
+            <h6 class="chemical_group_block">Noble Gas</h6>
+        </div>
+        <div class="grid-item" id="e87">
+            <h4 class="atomic_number">87</h4>
+            <h5 class="atomic_mass">223.01973</h5>
+            <h2 class="symbol">Fr</h2>
+            <h5 class="name">Francium</h5>
+            <h6 class="chemical_group_block">Alkali Metal</h6>
+        </div>
+        <div class="grid-item" id="e88">
+            <h4 class="atomic_number">88</h4>
+            <h5 class="atomic_mass">226.02541</h5>
+            <h2 class="symbol">Ra</h2>
+            <h5 class="name">Radium</h5>
+            <h6 class="chemical_group_block">Alkaline Earth Metal</h6>
+        </div>
+        <div class="grid-item" id="e89">
+            <h4 class="atomic_number">89</h4>
+            <h5 class="atomic_mass">227.02775</h5>
+            <h2 class="symbol">Ac</h2>
+            <h5 class="name">Actinium</h5>
+            <h6 class="chemical_group_block">Actinide</h6>
+        </div>
+        <div class="grid-item" id="e90">
+            <h4 class="atomic_number">90</h4>
+            <h5 class="atomic_mass">232.038</h5>
+            <h2 class="symbol">Th</h2>
+            <h5 class="name">Thorium</h5>
+            <h6 class="chemical_group_block">Actinide</h6>
+        </div>
+        <div class="grid-item" id="e91">
+            <h4 class="atomic_number">91</h4>
+            <h5 class="atomic_mass">231.03588</h5>
+            <h2 class="symbol">Pa</h2>
+            <h5 class="name">Protactinium</h5>
+            <h6 class="chemical_group_block">Actinide</h6>
+        </div>
+        <div class="grid-item" id="e92">
+            <h4 class="atomic_number">92</h4>
+            <h5 class="atomic_mass">238.0289</h5>
+            <h2 class="symbol">U</h2>
+            <h5 class="name">Uranium</h5>
+            <h6 class="chemical_group_block">Actinide</h6>
+        </div>
+        <div class="grid-item" id="e93">
+            <h4 class="atomic_number">93</h4>
+            <h5 class="atomic_mass">237.048172</h5>
+            <h2 class="symbol">Np</h2>
+            <h5 class="name">Neptunium</h5>
+            <h6 class="chemical_group_block">Actinide</h6>
+        </div>
+        <div class="grid-item" id="e94">
+            <h4 class="atomic_number">94</h4>
+            <h5 class="atomic_mass">244.06420</h5>
+            <h2 class="symbol">Pu</h2>
+            <h5 class="name">Plutonium</h5>
+            <h6 class="chemical_group_block">Actinide</h6>
+        </div>
+        <div class="grid-item" id="e95">
+            <h4 class="atomic_number">95</h4>
+            <h5 class="atomic_mass">243.061380</h5>
+            <h2 class="symbol">Am</h2>
+            <h5 class="name">Americium</h5>
+            <h6 class="chemical_group_block">Actinide</h6>
+        </div>
+        <div class="grid-item" id="e96">
+            <h4 class="atomic_number">96</h4>
+            <h5 class="atomic_mass">247.07035</h5>
+            <h2 class="symbol">Cm</h2>
+            <h5 class="name">Curium</h5>
+            <h6 class="chemical_group_block">Actinide</h6>
+        </div>
+        <div class="grid-item" id="e97">
+            <h4 class="atomic_number">97</h4>
+            <h5 class="atomic_mass">247.07031</h5>
+            <h2 class="symbol">Bk</h2>
+            <h5 class="name">Berkelium</h5>
+            <h6 class="chemical_group_block">Actinide</h6>
+        </div>
+        <div class="grid-item" id="e98">
+            <h4 class="atomic_number">98</h4>
+            <h5 class="atomic_mass">251.07959</h5>
+            <h2 class="symbol">Cf</h2>
+            <h5 class="name">Californium</h5>
+            <h6 class="chemical_group_block">Actinide</h6>
+        </div>
+        <div class="grid-item" id="e99">
+            <h4 class="atomic_number">99</h4>
+            <h5 class="atomic_mass">252.0830</h5>
+            <h2 class="symbol">Es</h2>
+            <h5 class="name">Einsteinium</h5>
+            <h6 class="chemical_group_block">Actinide</h6>
+        </div>
+        <div class="grid-item" id="e100">
+            <h4 class="atomic_number">100</h4>
+            <h5 class="atomic_mass">257.09511</h5>
+            <h2 class="symbol">Fm</h2>
+            <h5 class="name">Fermium</h5>
+            <h6 class="chemical_group_block">Actinide</h6>
+        </div>
+        <div class="grid-item" id="e101">
+            <h4 class="atomic_number">101</h4>
+            <h5 class="atomic_mass">258.09843</h5>
+            <h2 class="symbol">Md</h2>
+            <h5 class="name">Mendelevium</h5>
+            <h6 class="chemical_group_block">Actinide</h6>
+        </div>
+        <div class="grid-item" id="e102">
+            <h4 class="atomic_number">102</h4>
+            <h5 class="atomic_mass">259.10100</h5>
+            <h2 class="symbol">No</h2>
+            <h5 class="name">Nobelium</h5>
+            <h6 class="chemical_group_block">Actinide</h6>
+        </div>
+        <div class="grid-item" id="e103">
+            <h4 class="atomic_number">103</h4>
+            <h5 class="atomic_mass">266.120</h5>
+            <h2 class="symbol">Lr</h2>
+            <h5 class="name">Lawrencium</h5>
+            <h6 class="chemical_group_block">Actinide</h6>
+        </div>
+        <div class="grid-item" id="e104">
+            <h4 class="atomic_number">104</h4>
+            <h5 class="atomic_mass">267.122</h5>
+            <h2 class="symbol">Rf</h2>
+            <h5 class="name">Rutherfordium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e105">
+            <h4 class="atomic_number">105</h4>
+            <h5 class="atomic_mass">268.126</h5>
+            <h2 class="symbol">Db</h2>
+            <h5 class="name">Dubnium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e106">
+            <h4 class="atomic_number">106</h4>
+            <h5 class="atomic_mass">269.128</h5>
+            <h2 class="symbol">Sg</h2>
+            <h5 class="name">Seaborgium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e107">
+            <h4 class="atomic_number">107</h4>
+            <h5 class="atomic_mass">270.133</h5>
+            <h2 class="symbol">Bh</h2>
+            <h5 class="name">Bohrium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e108">
+            <h4 class="atomic_number">108</h4>
+            <h5 class="atomic_mass">269.1336</h5>
+            <h2 class="symbol">Hs</h2>
+            <h5 class="name">Hassium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e109">
+            <h4 class="atomic_number">109</h4>
+            <h5 class="atomic_mass">277.154</h5>
+            <h2 class="symbol">Mt</h2>
+            <h5 class="name">Meitnerium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e110">
+            <h4 class="atomic_number">110</h4>
+            <h5 class="atomic_mass">282.166</h5>
+            <h2 class="symbol">Ds</h2>
+            <h5 class="name">Darmstadtium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e111">
+            <h4 class="atomic_number">111</h4>
+            <h5 class="atomic_mass">282.169</h5>
+            <h2 class="symbol">Rg</h2>
+            <h5 class="name">Roentgenium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e112">
+            <h4 class="atomic_number">112</h4>
+            <h5 class="atomic_mass">286.179</h5>
+            <h2 class="symbol">Cn</h2>
+            <h5 class="name">Copernicium</h5>
+            <h6 class="chemical_group_block">Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e113">
+            <h4 class="atomic_number">113</h4>
+            <h5 class="atomic_mass">286.182</h5>
+            <h2 class="symbol">Nh</h2>
+            <h5 class="name">Nihonium</h5>
+            <h6 class="chemical_group_block">Post-Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e114">
+            <h4 class="atomic_number">114</h4>
+            <h5 class="atomic_mass">290.192</h5>
+            <h2 class="symbol">Fl</h2>
+            <h5 class="name">Flerovium</h5>
+            <h6 class="chemical_group_block">Post-Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e115">
+            <h4 class="atomic_number">115</h4>
+            <h5 class="atomic_mass">290.196</h5>
+            <h2 class="symbol">Mc</h2>
+            <h5 class="name">Moscovium</h5>
+            <h6 class="chemical_group_block">Post-Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e116">
+            <h4 class="atomic_number">116</h4>
+            <h5 class="atomic_mass">293.205</h5>
+            <h2 class="symbol">Lv</h2>
+            <h5 class="name">Livermorium</h5>
+            <h6 class="chemical_group_block">Post-Transition Metal</h6>
+        </div>
+        <div class="grid-item" id="e117">
+            <h4 class="atomic_number">117</h4>
+            <h5 class="atomic_mass">294.211</h5>
+            <h2 class="symbol">Ts</h2>
+            <h5 class="name">Tennessine</h5>
+            <h6 class="chemical_group_block">Halogen</h6>
+        </div>
+        <div class="grid-item" id="e118">
+            <h4 class="atomic_number">118</h4>
+            <h5 class="atomic_mass">295.216</h5>
+            <h2 class="symbol">Og</h2>
+            <h5 class="name">Oganesson</h5>
+            <h6 class="chemical_group_block">Noble Gas</h6>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- Referenced from https://pubchem.ncbi.nlm.nih.gov/periodic-table/-->
+<!-- Image sourced from https://www.sciencephoto.com/media/876867/view/periodic-table-of-the-elements-2017-illustration-->
